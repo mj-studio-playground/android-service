@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Service" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop Service" />
+
+        <Button
+            android:id="@+id/start_foreground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Start Foreground Service" />
+
+        <Button
+            android:id="@+id/stop_foreground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Stop Foreground Service" />
+
+        <Button
+            android:id="@+id/bind_binder_extended"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#452299"
+            android:text="Bind Binder extended Service" />
+
+        <Button
+            android:id="@+id/unbind_binder_extended"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#452299"
+            android:text="Unbind Binder extended Service" />
+
+        <Button
+            android:id="@+id/show_toast_binder_extended_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#452299"
+            android:text="Show toast with binder extended" />
+
+        <Button
+            android:id="@+id/bind_messenger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#52994F"
+            android:text="Bind Messenger IPC Service" />
+
+        <Button
+            android:id="@+id/unbind_messenger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#52994F"
+            android:text="Unbind Messenger IPC Service" />
+
+        <Button
+            android:id="@+id/show_toast_messenger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#52994F"
+            android:text="Show toast with Messenger IPC" />
+
+        <Button
+            android:id="@+id/add_messenger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#52994F"
+            android:text="Invoke add function in Messenger IPC" />
+
+        <Button
+            android:id="@+id/bind_aidl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3392FF"
+            android:text="Bind AIDL Service" />
+
+        <Button
+            android:id="@+id/unbind_aidl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3392FF"
+            android:text="Unbind AIDL Service" />
+
+        <Button
+            android:id="@+id/add_aidl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3392FF"
+            android:text="Invoke add function in AIDL" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
